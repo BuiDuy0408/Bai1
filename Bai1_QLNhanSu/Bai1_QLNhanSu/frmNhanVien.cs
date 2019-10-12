@@ -21,5 +21,10 @@ namespace Bai1_QLNhanSu
         {
 
         }
+
+        private void frmNhanVien_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -16,5 +16,10 @@ namespace Bai1_QLNhanSu
         {
             InitializeComponent();
         }
+
+        private void frmDangNhap_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
