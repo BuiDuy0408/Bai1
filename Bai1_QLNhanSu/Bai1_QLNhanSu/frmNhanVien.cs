@@ -26,5 +26,10 @@ namespace Bai1_QLNhanSu
         {
 
         }
+
+        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }
