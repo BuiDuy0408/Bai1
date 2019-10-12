@@ -75,11 +75,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="F:\Clone-Hoang Anh-Thi\Bai1_QLNhanSu\BangQLCT\BangQLCT.csproj">
-      <Project>{d3f48779-4e5a-41d4-be17-fa3ddacdb3f0}</Project>
-      <Name>BangQLCT</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

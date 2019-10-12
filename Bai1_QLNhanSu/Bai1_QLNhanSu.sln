@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai1_QLNhanSu", "Bai1_QLNhanSu\Bai1_QLNhanSu.csproj", "{05CAA168-5238-44C3-A5A3-09A5BED1BD69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BangQLCT", "F:\Clone-Hoang Anh-Thi\Bai1_QLNhanSu\BangQLCT\BangQLCT.csproj", "{D3F48779-4E5A-41D4-BE17-FA3DDACDB3F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BangQLCT", "..\BangQLCT\BangQLCT.csproj", "{D3F48779-4E5A-41D4-BE17-FA3DDACDB3F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
