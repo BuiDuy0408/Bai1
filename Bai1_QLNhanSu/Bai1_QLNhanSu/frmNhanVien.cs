@@ -16,5 +16,10 @@ namespace Bai1_QLNhanSu
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
