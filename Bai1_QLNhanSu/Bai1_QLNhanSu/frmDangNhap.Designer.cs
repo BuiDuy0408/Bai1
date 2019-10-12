@@ -30,6 +30,8 @@
         {
             this.label13 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.txtPass = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label13
@@ -54,11 +56,30 @@
             this.label2.TabIndex = 10;
             this.label2.Text = "Pass :";
             // 
+            // txtUserName
+            // 
+            this.txtUserName.Location = new System.Drawing.Point(250, 142);
+            this.txtUserName.Margin = new System.Windows.Forms.Padding(4);
+            this.txtUserName.Name = "txtUserName";
+            this.txtUserName.Size = new System.Drawing.Size(199, 22);
+            this.txtUserName.TabIndex = 11;
+            // 
+            // txtPass
+            // 
+            this.txtPass.Location = new System.Drawing.Point(250, 196);
+            this.txtPass.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPass.Name = "txtPass";
+            this.txtPass.PasswordChar = '*';
+            this.txtPass.Size = new System.Drawing.Size(199, 22);
+            this.txtPass.TabIndex = 12;
+            // 
             // frmDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtPass);
+            this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label13);
             this.Name = "frmDangNhap";
@@ -72,5 +93,7 @@
 
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtUserName;
+        private System.Windows.Forms.TextBox txtPass;
     }
 }
