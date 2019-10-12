@@ -31,5 +31,11 @@ namespace Bai1_QLNhanSu
             }
             else MessageBox.Show("Tên đăng nhập hoặc mật khẩu sai. Mời bạn nhập lại !!!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Ban có chắc muốn thoát ??", "Question", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                this.Close();
+        }
+
     }
 }
