@@ -75,5 +75,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\BangQLCT\BangQLCT.csproj">
+      <Project>{d3f48779-4e5a-41d4-be17-fa3ddacdb3f0}</Project>
+      <Name>BangQLCT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\KetNoiDB\KetNoiDB.csproj">
+      <Project>{bc71ad08-92a7-43bb-ac68-b2f96ec6f452}</Project>
+      <Name>KetNoiDB</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
