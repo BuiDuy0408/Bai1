@@ -84,10 +84,6 @@
       <Project>{bc71ad08-92a7-43bb-ac68-b2f96ec6f452}</Project>
       <Name>KetNoiDB</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\OBJ\DonVi.csproj">
-      <Project>{b4d71e7a-456c-4686-9649-508997ad9c4d}</Project>
-      <Name>DonVi</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
