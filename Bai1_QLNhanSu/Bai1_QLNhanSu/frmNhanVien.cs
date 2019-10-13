@@ -146,28 +146,11 @@ namespace Bai1_QLNhanSu
             //KhoiTao();
         }
 
-        private void tscbGT_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            dgvNhanVien.DataSource = tk.TKGTNhanVien(tscbGT.Text);
-            //KhoiTao();
-        }
-        private void tstxtDiaChi_TextChanged(object sender, EventArgs e)
-        {
-            dgvNhanVien.DataSource = tk.TKDiaChiNhanVien(tstxtDiaChi.Text);
-            //KhoiTao();
-        }
+       
+       
 
-        private void btnHuy_Click(object sender, EventArgs e)
-        {
-            frmNhanVien_Load(sender, e);
-            SetNull();
-            chon = 0;
-        }
-        private void btnthoat_Click(object sender, EventArgs e)
-        {
-            if (MessageBox.Show("Ban có chắc muốn thoát ??", "Question", MessageBoxButtons.YesNo) == DialogResult.Yes)
-                this.Close();
-        }
+       
+      
 
 
     }
