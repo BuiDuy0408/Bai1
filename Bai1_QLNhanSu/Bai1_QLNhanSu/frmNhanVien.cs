@@ -62,6 +62,19 @@ namespace Bai1_QLNhanSu
             txtChucVu.Text = dgvNhanVien.Rows[0].Cells[9].Value.ToString();
             txtSDT.Text = dgvNhanVien.Rows[0].Cells[10].Value.ToString();
         }
+        private void btnThem_Click(object sender, EventArgs e)
+        {
+            MoDieuKhien();
+            txtMaNV.Enabled = false;
+            SetNull();
+            chon = 1;
+        }
+
+        private void btnSua_Click(object sender, EventArgs e)
+        {
+            MoDieuKhien();
+            chon = 2;
+        }
 
     }
 }
