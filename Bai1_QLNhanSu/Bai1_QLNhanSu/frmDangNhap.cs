@@ -51,5 +51,10 @@ namespace Bai1_QLNhanSu
         {
             label1.ForeColor = Color.Red;
         }
+
+        private void frmDangNhap_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
