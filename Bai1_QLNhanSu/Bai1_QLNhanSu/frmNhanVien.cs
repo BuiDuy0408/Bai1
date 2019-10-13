@@ -138,23 +138,19 @@ namespace Bai1_QLNhanSu
         private void tstxtMa_TextChanged(object sender, EventArgs e)
         {
             dgvNhanVien.DataSource = tk.TKMaNhanVien(tstxtMa.Text);
-            //KhoiTao();
         }
         private void tstxtTen_TextChanged(object sender, EventArgs e)
         {
             dgvNhanVien.DataSource = tk.TKTenNhanVien(tstxtTen.Text);
-            //KhoiTao();
         }
         private void tscbGT_SelectedIndexChanged(object sender, EventArgs e)
         {
             dgvNhanVien.DataSource = tk.TKGTNhanVien(tscbGT.Text);
-            //KhoiTao();
         }
 
         private void tstxtDiaChi_TextChanged(object sender, EventArgs e)
         {
             dgvNhanVien.DataSource = tk.TKDiaChiNhanVien(tstxtDiaChi.Text);
-            //KhoiTao();
         }
         private void btnHuy_Click(object sender, EventArgs e)
         {
