@@ -31,5 +31,11 @@ namespace Bai1_QLNhanSu
         {
             label1.ForeColor = Color.Red;
         }
+        private void hướngDẫnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmHuongDan hd = new frmHuongDan();
+            hd.Show();
+            Hide();
+        }
     }
 }
