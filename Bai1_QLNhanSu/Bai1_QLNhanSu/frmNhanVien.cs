@@ -145,12 +145,22 @@ namespace Bai1_QLNhanSu
             dgvNhanVien.DataSource = tk.TKTenNhanVien(tstxtTen.Text);
             //KhoiTao();
         }
+        private void tscbGT_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            dgvNhanVien.DataSource = tk.TKGTNhanVien(tscbGT.Text);
+            //KhoiTao();
+        }
 
-       
-       
+        private void tstxtDiaChi_TextChanged(object sender, EventArgs e)
+        {
+            dgvNhanVien.DataSource = tk.TKDiaChiNhanVien(tstxtDiaChi.Text);
+            //KhoiTao();
+        }
 
-       
-      
+
+
+
+
 
 
     }
