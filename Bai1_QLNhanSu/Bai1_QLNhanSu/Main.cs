@@ -21,5 +21,15 @@ namespace Bai1_QLNhanSu
         {
 
         }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer3_Tick(object sender, EventArgs e)
+        {
+
+        }
     }
 }
