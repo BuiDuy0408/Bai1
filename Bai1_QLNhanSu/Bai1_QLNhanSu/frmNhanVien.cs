@@ -163,6 +163,12 @@ namespace Bai1_QLNhanSu
             SetNull();
             chon = 0;
         }
+        private void btnthoat_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Ban có chắc muốn thoát ??", "Question", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                this.Close();
+        }
+
 
     }
 }
