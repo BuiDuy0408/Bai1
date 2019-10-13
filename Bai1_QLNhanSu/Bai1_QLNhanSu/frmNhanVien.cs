@@ -88,6 +88,40 @@ namespace Bai1_QLNhanSu
                 SetNull();
             }
         }
+        private void btnLuu_Click(object sender, EventArgs e)
+        {
+            if (chon == 1)
+            {
+                if (txtTenNV.Text == "" || txtGT.Text == "" || txtHoDem.Text == "" || txtDiaChi.Text == "" || txtSDT.Text == "" || txtLuong.Text == "" || cbMaDV.Text == "" || cbMa_NQL.Text == "")
+                    MessageBox.Show("Mời nhập đầy đủ thông tin!");
+                else
+                    if (DialogResult.Yes == MessageBox.Show("Bạn có muốn thêm nhân viên này?", "THÔNG BÁO", MessageBoxButtons.YesNo, MessageBoxIcon.Question))
+                {
+                    nhanvien.ThemNhanVien(txtHoDem.Text, txtTenNV.Text, dtpNgaySinh.Text, txtGT.Text, txtLuong.Text, txtDiaChi.Text, cbMa_NQL.Text, cbMaDV.Text, txtChucVu.Text, txtSDT.Text);
+                    MessageBox.Show("Thêm thành công!");
+                    SetNull();
+                    frmNhanVien_Load(sender, e);
+                }
+            }
+            else if (chon == 2)
+            {
+                if (txtTenNV.Text == "" || txtGT.Text == "" || txtHoDem.Text == "" || txtDiaChi.Text == "" || txtSDT.Text == "" || txtLuong.Text == "" || cbMaDV.Text == "" || cbMa_NQL.Text == "")
+                    MessageBox.Show("Mời nhập đầy đủ thông tin!");
+                else
+                    if (DialogResult.Yes == MessageBox.Show("Bạn có muốn Sửa nhân viên này?", "THÔNG BÁO", MessageBoxButtons.YesNo, MessageBoxIcon.Question))
+                {
+                    nhanvien.SuaNhanVien(txtMaNV.Text, txtHoDem.Text, txtTenNV.Text, dtpNgaySinh.Text, txtGT.Text, txtLuong.Text, txtDiaChi.Text, cbMa_NQL.Text, cbMaDV.Text, txtChucVu.Text, txtSDT.Text);
+                    MessageBox.Show("Sửa thành công!");
+                    SetNull();
+                    frmNhanVien_Load(sender, e);
+                }
+            }
+        }
+        private void tstxtMa_TextChanged(object sender, EventArgs e)
+        {
+            dgvNhanVien.DataSource = tk.TKMaNhanVien(tstxtMa.Text);
+            //KhoiTao();
+        }
 
     }
 }
