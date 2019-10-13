@@ -16,20 +16,18 @@ namespace Bai1_QLNhanSu
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        void KhoaDieuKhien()
         {
-
+            txtMaNV.Enabled = txtHoDem.Enabled = txtTenNV.Enabled = txtGT.Enabled = dtpNgaySinh.Enabled = txtDiaChi.Enabled = txtSDT.Enabled = txtLuong.Enabled = txtChucVu.Enabled = cbMa_NQL.Enabled = cbMaDV.Enabled = false;
+            btnThem.Enabled = btnSua.Enabled = btnXoa.Enabled = true;
+            btnLuu.Enabled = false;
+        }
+        void MoDieuKhien()
+        {
+            txtMaNV.Enabled = txtHoDem.Enabled = txtTenNV.Enabled = txtGT.Enabled = dtpNgaySinh.Enabled = txtDiaChi.Enabled = txtSDT.Enabled = txtLuong.Enabled = txtChucVu.Enabled = cbMa_NQL.Enabled = cbMaDV.Enabled = true;
+            btnThem.Enabled = btnSua.Enabled = btnXoa.Enabled = false;
+            btnLuu.Enabled = true;
         }
 
-        private void frmNhanVien_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
     }
 }
