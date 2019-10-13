@@ -151,6 +151,18 @@ namespace Bai1_QLNhanSu
             dgvNhanVien.DataSource = tk.TKGTNhanVien(tscbGT.Text);
             //KhoiTao();
         }
+        private void tstxtDiaChi_TextChanged(object sender, EventArgs e)
+        {
+            dgvNhanVien.DataSource = tk.TKDiaChiNhanVien(tstxtDiaChi.Text);
+            //KhoiTao();
+        }
+
+        private void btnHuy_Click(object sender, EventArgs e)
+        {
+            frmNhanVien_Load(sender, e);
+            SetNull();
+            chon = 0;
+        }
 
     }
 }
