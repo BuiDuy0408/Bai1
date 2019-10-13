@@ -71,9 +71,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmDangNhap.resx">
-      <DependentUpon>frmDangNhap.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmHuongDan.resx">
       <DependentUpon>frmHuongDan.cs</DependentUpon>
     </EmbeddedResource>
