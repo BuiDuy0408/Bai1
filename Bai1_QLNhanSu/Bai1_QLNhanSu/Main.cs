@@ -17,7 +17,7 @@ namespace Bai1_QLNhanSu
             InitializeComponent();
         }
 
-        private void nhânViênToolStripMenuItem_Click(object sender, EventArgs e)
+        private void timer1_Tick(object sender, EventArgs e)
         {
 
         }
