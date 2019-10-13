@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.quảnLýToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nhânViênToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -66,7 +65,6 @@
             this.nhânViênToolStripMenuItem.Name = "nhânViênToolStripMenuItem";
             this.nhânViênToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
             this.nhânViênToolStripMenuItem.Text = "Nhân viên";
-          
             // 
             // hướngDẫnToolStripMenuItem
             // 
@@ -74,20 +72,18 @@
             this.hướngDẫnToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1;
             this.hướngDẫnToolStripMenuItem.Size = new System.Drawing.Size(125, 20);
             this.hướngDẫnToolStripMenuItem.Text = "Hướng dẫn sử dụng";
-    
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.RoyalBlue;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 22F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(-420, 24);
+            this.label1.Location = new System.Drawing.Point(50, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1229, 34);
+            this.label1.Size = new System.Drawing.Size(627, 28);
             this.label1.TabIndex = 3;
-            this.label1.Text = " Quản lý nhân sự by Quang Duy, Trung Thành, Thái Học, Đức Trường,X.Trường ";
-                        
+            this.label1.Text = " Quang Duy, Trung Thành, Thái Học, Đức Trường,X.Trường ";
             // 
             // timer1
             // 
@@ -109,7 +105,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(727, 361);
             this.Controls.Add(this.label1);
@@ -118,7 +113,6 @@
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "QUẢN LÝ NHÂN SỰ";
-
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
