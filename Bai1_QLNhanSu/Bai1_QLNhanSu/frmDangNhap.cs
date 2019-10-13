@@ -16,5 +16,11 @@ namespace Bai1_QLNhanSu
         {
             InitializeComponent();
         }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Ban có chắc muốn thoát ??", "Question", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                this.Close();
+        }
     }
 }
