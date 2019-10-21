@@ -17,6 +17,21 @@ namespace Bai1_QLNhanSu
             InitializeComponent();
         }
 
+        private void Main_Load(object sender, EventArgs e)
+        {
+            SetStyle(ControlStyles.ResizeRedraw, true);
+            timer1.Start();
+            timer2.Start();
+            timer3.Start();
+        }
+
+        private void nhânViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNhanVien nhanvien = new frmNhanVien();
+            //nhanvien.MdiParent = this;
+            nhanvien.Show();
+        }
+
         private void timer1_Tick(object sender, EventArgs e)
         {
             label1.Text = label1.Text.Substring(2, label1.Text.Length - 2) + label1.Text.Substring(0, 2);
@@ -31,11 +46,17 @@ namespace Bai1_QLNhanSu
         {
             label1.ForeColor = Color.Red;
         }
+
         private void hướngDẫnToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmHuongDan hd = new frmHuongDan();
             hd.Show();
             Hide();
+        }
+
+        private void Label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
