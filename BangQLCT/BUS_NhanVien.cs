@@ -67,17 +67,6 @@ namespace BangQLCT
             con.Close();
         }
 
-        public void XoaNhanVien(string MaNV)
-        {
-            string sql = "Xoa_NV";
-            SqlConnection con = new SqlConnection(KetNoi.connect());
-            con.Open();
-            SqlCommand cmd = new SqlCommand(sql, con);
-            cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("@MaNV", MaNV);
-            cmd.ExecuteNonQuery();
-            cmd.Dispose();
-            con.Close();
-        }
+       
     }
 }

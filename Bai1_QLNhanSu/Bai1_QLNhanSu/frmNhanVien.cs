@@ -82,7 +82,7 @@ namespace Bai1_QLNhanSu
             else
             if (DialogResult.Yes == MessageBox.Show("Bạn muốn xóa nhân viên này?", "THÔNG BÁO", MessageBoxButtons.YesNo, MessageBoxIcon.Question))
             {
-                nhanvien.XoaNhanVien(txtMaNV.Text);
+                //nhanvien.XoaNhanVien(txtMaNV.Text);
                 MessageBox.Show("Xóa thành công!");
                 frmNhanVien_Load(sender, e);
                 SetNull();
