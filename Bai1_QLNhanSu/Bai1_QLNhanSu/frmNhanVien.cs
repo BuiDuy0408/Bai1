@@ -64,26 +64,19 @@ namespace Bai1_QLNhanSu
         }
         private void btnThem_Click(object sender, EventArgs e)
         {
-            
+            MoDieuKhien();
+            txtMaNV.Enabled = false;
+            SetNull();
+            chon = 1;
         }
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-            MoDieuKhien();
-            chon = 2;
+            
         }
         private void btnXoa_Click(object sender, EventArgs e)
         {
-            if (txtMaNV.Text == "")
-                MessageBox.Show("Chọn nhân viên!");
-            else
-            if (DialogResult.Yes == MessageBox.Show("Bạn muốn xóa nhân viên này?", "THÔNG BÁO", MessageBoxButtons.YesNo, MessageBoxIcon.Question))
-            {
-                //nhanvien.XoaNhanVien(txtMaNV.Text);
-                MessageBox.Show("Xóa thành công!");
-                frmNhanVien_Load(sender, e);
-                SetNull();
-            }
+            
         }
         private void btnLuu_Click(object sender, EventArgs e)
         {
