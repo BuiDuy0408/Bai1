@@ -46,7 +46,13 @@ namespace Bai1_QLNhanSu
                 Image img = Image.FromFile(@"anh main.png");
                 pictureBox1.BackgroundImage = img;
             }
-           
+            else
+                        if (e.Node.Name == "gtQLNS")
+            {
+                GetFileAll("PhanQuanLi.txt");
+                Image img = Image.FromFile(@"anh nhan vien.png");
+                pictureBox1.BackgroundImage = img;
+            }
         }
     }
 }
