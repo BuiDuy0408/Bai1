@@ -58,16 +58,18 @@
             // txtUserName
             // 
             this.txtUserName.Location = new System.Drawing.Point(171, 121);
+            this.txtUserName.Multiline = true;
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(182, 20);
+            this.txtUserName.Size = new System.Drawing.Size(182, 28);
             this.txtUserName.TabIndex = 2;
             // 
             // txtPass
             // 
             this.txtPass.Location = new System.Drawing.Point(171, 169);
+            this.txtPass.Multiline = true;
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
-            this.txtPass.Size = new System.Drawing.Size(182, 20);
+            this.txtPass.Size = new System.Drawing.Size(182, 31);
             this.txtPass.TabIndex = 3;
             // 
             // label1
@@ -84,7 +86,7 @@
             // 
             // btnDangNhap
             // 
-            this.btnDangNhap.Location = new System.Drawing.Point(90, 225);
+            this.btnDangNhap.Location = new System.Drawing.Point(90, 227);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(128, 43);
             this.btnDangNhap.TabIndex = 5;
@@ -93,7 +95,7 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(259, 225);
+            this.btnThoat.Location = new System.Drawing.Point(259, 227);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(116, 45);
             this.btnThoat.TabIndex = 8;
