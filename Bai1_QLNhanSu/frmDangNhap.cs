@@ -1,5 +1,4 @@
-﻿using BangQLCT;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,7 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using KetNoiDB;
+using BangQLCT;
 namespace Bai1_QLNhanSu
 {
     public partial class frmDangNhap : Form
@@ -37,6 +37,7 @@ namespace Bai1_QLNhanSu
             if (MessageBox.Show("Ban có chắc muốn thoát ??", "Question", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 this.Close();
         }
+
         private void frmDangNhap_Load(object sender, EventArgs e)
         {
             SetStyle(ControlStyles.ResizeRedraw, true);
