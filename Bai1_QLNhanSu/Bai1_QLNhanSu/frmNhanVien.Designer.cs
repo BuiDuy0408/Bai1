@@ -581,7 +581,7 @@
             "nu"});
             this.tscbGT.Name = "tscbGT";
             this.tscbGT.Size = new System.Drawing.Size(199, 28);
-            this.tscbGT.TextChanged += new System.EventHandler(this.tscbGT_SelectedIndexChanged);
+            //this.tscbGT.TextChanged += new System.EventHandler(this.tscbGT_SelectedIndexChanged);
             // 
             // toolStripLabel4
             // 
